@@ -30,7 +30,9 @@ export default async function BlogPage({ params }) {
           <div className="flex items-center justify-center w-24 h-24 rounded-xl bg-gray-800/70 mb-6">
             <Icon className="h-12 w-12 text-cyan-400" />
           </div>
-          <h1 className="text-4xl font-bold text-white mb-4">{post.title}</h1>
+          <h1 className="text-4xl font-bold text-white mb-4">
+            {post.title}
+            </h1>
           <p className="text-cyan-400 uppercase text-sm font-semibold tracking-widest">
             {post.category}
           </p>
