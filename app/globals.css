@@ -24,3 +24,40 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes glowPulse {
+  0%, 100% {
+    opacity: 1;
+    filter: blur(0.5px);
+    transform: translate(-50%, -50%) scaleX(1);
+  }
+  50% {
+    opacity: 0.75;
+    filter: blur(2px);
+    transform: translate(-50%, -50%) scaleX(1.05);
+  }
+}
+
+.animate-glowPulse {
+  animation: glowPulse 2.6s ease-in-out infinite;
+}
+
+/* Make active dot show cyan color */
+.slick-dots li.slick-active div {
+  background-color: #06b6d4; /* Tailwind’s cyan-400 */
+  width: 2.5rem; /* slightly longer active bar */
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+
+

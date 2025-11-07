@@ -3,7 +3,16 @@ import nextVitals from "eslint-config-next/core-web-vitals";
 
 const eslintConfig = defineConfig([
   ...nextVitals,
-  // Override default ignores of eslint-config-next.
+
+  // Custom overrides
+  {
+    rules: {
+      // Warn when JSX expressions (like className) are split across multiple lines
+      "react/jsx-one-expression-per-line": ["warn", { allow: "literal" }],
+    },
+  },
+
+  // Override default ignores of eslint-config-next
   globalIgnores([
     // Default ignores of eslint-config-next:
     ".next/**",
