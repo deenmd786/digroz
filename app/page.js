@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import BackgroundGlows from "./components/BackgroundGlows";
 import ServicesSection from "./components/ServicesSection";
@@ -15,7 +14,7 @@ export default function App() {
   return (
     <div className="font-['Inter',sans-serif] min-h-screen bg-gray-900 text-gray-100 relative overflow-hidden">
       <BackgroundGlows />
-      <Header />
+      
       <HeroSection />
       <ServicesSection />
       <OurStory />

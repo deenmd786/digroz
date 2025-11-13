@@ -1,15 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
   reactCompiler: true,
   images: {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "placehold.co",
+        hostname: "drive.google.com",
       },
     ],
-    dangerouslyAllowSVG: true, // allows SVGs (use only for trusted sources!)
+    dangerouslyAllowSVG: true,
   },
 };
 

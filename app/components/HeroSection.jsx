@@ -2,6 +2,7 @@ import React from "react";
 import { Megaphone, MonitorSmartphone } from "lucide-react";
 import Image from "next/image";
 import SectionGlow from "./SectionGlow";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -9,7 +10,7 @@ const HeroSection = () => {
       {/* Background Overlay for Soft Glow */}
       <div className="absolute inset-0 bg-linear-to-b from-cyan-900/10 via-transparent to-cyan-700/10 pointer-events-none"></div>
 
-      <main className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 pt-28 lg:pt-32 pb-10 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center z-10">
+      <main className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 pt-28 lg:pt-32 pb-10 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-0 items-center z-10">
         {/* Left Side */}
         <div className="flex flex-col justify-center text-center md:text-left">
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
@@ -42,18 +43,18 @@ const HeroSection = () => {
           </div>
 
           <div className="mt-10 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center md:justify-start">
-            <a
-              href="#"
+            <Link
+              href="#contact"
               className="bg-cyan-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-cyan-600 transition-all text-center text-sm sm:text-base"
             >
               Accelerate Your Growth Today
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="/portfolio"
               className="border-2 border-cyan-500 text-cyan-500 font-bold py-3 px-6 rounded-lg hover:bg-cyan-500 hover:text-white transition-all text-center text-sm sm:text-base"
             >
               Explore Our Portfolio
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -66,7 +67,7 @@ const HeroSection = () => {
             src="/main-image.png"
             alt="Hero background"
             width={800}
-            height={600}
+            height={800}
             priority
             className="relative z-10 w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-none  object-cover rounded-none md:rounded-l-2xl"
           />

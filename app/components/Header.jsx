@@ -12,9 +12,9 @@ const Header = () => {
     { name: "Services", href: "#services" },
     { name: "Case Studies", href: "#case-studies" },
     { name: "About Us", href: "#our-story" },
+    { name: "Contact Us", href: "#contact" },
     { name: "Testimonials", href: "#testimonials" },
     { name: "Blog", href: "#blog" },
-    { name: "Faq", href: "#faq" },
   ];
 
   return (
@@ -22,9 +22,11 @@ const Header = () => {
       <nav className="max-w-7xl mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8 py-3 sm:py-4">
         
         {/* Logo */}
-        <div className="flex items-center">
+        <Link
+        href={'/'}
+         className="flex items-center">
           <Logo />
-        </div>
+        </Link>
 
         {/* Desktop Nav */}
         <div className="hidden lg:flex items-center space-x-8">
@@ -42,7 +44,7 @@ const Header = () => {
         {/* Desktop Button */}
         <div className="hidden lg:block">
           <Link
-            href="/contact"
+            href="#contact"
             className="bg-cyan-500 text-white font-semibold px-6 py-2.5 rounded-lg hover:bg-cyan-400 transition-all duration-200 shadow-sm"
           >
             Get a Quote

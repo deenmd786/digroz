@@ -1,31 +1,24 @@
 import React from "react";
+import Image from "next/image";
 
 const Logo = () => (
   <div className="flex items-center space-x-2">
-    <svg
-      width="30"
-      height="30"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="text-cyan-400"
-    >
-      <path
-        d="M4 15L12 7L20 15"
-        stroke="currentColor"
-        strokeWidth="2.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M4 10L12 2L20 10"
-        stroke="currentColor"
-        strokeWidth="2.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-    <span className="font-bold text-2xl text-white">Digital Ascent</span>
+    {/* Full logo on screens md and above (larger than sm) */}
+    <Image 
+      src="/logo.png" 
+      width={130} 
+      height={140} 
+      alt="Digital Ascent Logo" 
+      className="hidden md:block" 
+    />
+    {/* Logo icon on screens sm and below */}
+    <Image 
+      src="/logo-icon.png" 
+      width={50} 
+      height={50} 
+      alt="Digital Ascent Logo" 
+      className="block md:hidden" 
+    />
   </div>
 );
 

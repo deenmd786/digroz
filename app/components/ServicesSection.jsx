@@ -3,6 +3,7 @@ import React from "react";
 import { Megaphone, Code, Smartphone, CheckCircle } from "lucide-react";
 import SectionGlow from "./SectionGlow";
 import Image from "next/image";
+import Link from "next/link";
 
 // --- Reusable Component 1: Service Pillar Card ---
 const ServicePillarCard = ({ icon, title, description }) => (
@@ -173,9 +174,13 @@ export default function ServicesSection() {
 
         {/* CTA Button */}
         <div className="text-center mt-12">
-          <button className="bg-cyan-400 text-gray-900 font-bold py-3 px-8 rounded-xl shadow-lg hover:shadow-cyan-400/40 hover:bg-cyan-300 transition-all duration-300">
+          <Link 
+          className="bg-cyan-400 text-gray-900 font-bold py-3 px-8 rounded-xl shadow-lg hover:shadow-cyan-400/40 hover:bg-cyan-300 transition-all duration-300"
+          href={'/portfolio'}
+          >
+
             Explore All Services
-          </button>
+          </Link>
         </div>
 
         {/* Divider */}

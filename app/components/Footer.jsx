@@ -5,6 +5,7 @@ import { HiBolt } from 'react-icons/hi2'; // Placeholder logo
 import { FiPhone, FiMail, FiMapPin } from 'react-icons/fi';
 import { FaLinkedinIn, FaInstagram, FaFacebookF } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6'; // The new X logo
+import Logo from './Logo';
 
 // Link data
 const exploreLinks = [
@@ -38,10 +39,7 @@ export default function Footer() {
             
             {/* Column 1: About Us */}
             <div className="md:col-span-12 lg:col-span-5">
-              <div className="flex items-center gap-x-2">
-                <HiBolt className="h-8 w-8 text-cyan-400" />
-                <span className="text-2xl font-bold text-white">Digital Agency</span>
-              </div>
+              <Logo />
               <p className="mt-2 text-sm text-gray-500">Logline Agenc</p>
               
               <p className="mt-6 text-base leading-7">
