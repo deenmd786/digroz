@@ -6,8 +6,8 @@ const Logo = () => (
     {/* Full logo on screens md and above (larger than sm) */}
     <Image 
       src="/logo.png" 
-      width={130} 
-      height={140} 
+      width={140} 
+      height={50} 
       alt="Digital Ascent Logo" 
       className="hidden md:block" 
     />
