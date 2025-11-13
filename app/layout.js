@@ -8,7 +8,7 @@ export const viewport = {
 };
 
 export const metadata = {
-  title: "Digroz – Empowering Digital Growth",
+  title: "Digroz – Unlock Digital Boundries",
   description:
     "Digroz provides professional web development, app development, and digital marketing solutions to help your business grow online effectively.",
   keywords:
@@ -29,7 +29,7 @@ export const metadata = {
     site: "@digroz",
     creator: "@digroz",
     card: "summary_large_image",
-    title: "Digroz – Empowering Digital Growth",
+    title: "Digroz – Unlock Digital Boundries",
     description:
       "Digroz provides web, app, and digital marketing solutions to elevate your business online.",
     images: ["/digroz-banner.png"], // relative path works fine in Next.js
@@ -46,7 +46,7 @@ export const metadata = {
         url: "/digroz-banner.png", // relative path auto-resolves to full domain
         width: 1200,
         height: 630,
-        alt: "Digroz – Empowering Digital Growth",
+        alt: "Digroz – Unlock Digital Boundries",
       },
     ],
     type: "website",
