@@ -6,12 +6,33 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative w-full bg-linear-to-b from-[#020617] via-[#0a1120] to-black overflow-hidden">
+    <section
+      id="home"
+      className="
+        relative w-full 
+        bg-linear-to-b from-[#020617] via-[#0a1120] to-black 
+        overflow-hidden
+      "
+    >
       {/* Background Overlay for Soft Glow */}
       <div className="absolute inset-0 bg-linear-to-b from-cyan-900/10 via-transparent to-cyan-700/10 pointer-events-none"></div>
 
+      {/* Background image 70% width / 80% height on md+ */}
+      <div
+        className="
+          hidden md:block
+          absolute right-0 top-1/2 -translate-y-1/2
+          w-[70%] h-[40%] lg:h-[50%] xl:h-[75%]
+          bg-[url('/main-image.png')]
+          bg-contain bg-no-repeat bg-right
+          pointer-events-none
+          z-0
+        "
+      ></div>
+
       <main className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 pt-28 lg:pt-32 pb-10 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-0 items-center z-10">
-        {/* Left Side */}
+        
+        {/* LEFT SIDE */}
         <div className="flex flex-col justify-center text-center md:text-left">
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
             <span className="text-cyan-400">Elevate</span> Your
@@ -58,23 +79,22 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Right Side Image (merged with background) */}
-        <div className="flex justify-center md:justify-end relative">
-          {/* Gradient fade for blending with background */}
+        {/* RIGHT SIDE IMAGE — ONLY VISIBLE ON MOBILE */}
+        <div className="flex justify-center md:hidden relative">
           <div className="absolute inset-0 bg-linear-to-l from-[#0a1120] via-transparent to-transparent z-0"></div>
 
           <Image
             src="/main-image.png"
-            alt="Hero background"
+            alt="Hero visual"
             width={800}
             height={800}
             priority
-            className="relative z-10 w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-none  object-cover rounded-none md:rounded-l-2xl"
+            className="relative z-10 w-full max-w-sm sm:max-w-md object-cover rounded-none"
           />
         </div>
 
-        
       </main>
+
       <SectionGlow />
     </section>
   );

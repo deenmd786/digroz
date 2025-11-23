@@ -127,7 +127,7 @@ export function getDynamicWebContent(subTab) {
           { icon: Shield, text: "JWT-based authentication" },
           { icon: Code, text: "React frontend integration" },
         ],
-        price: "Starting from ₹29,999",
+        price: "Starting from ₹39,999",
       };
 
     case "custom":
@@ -141,7 +141,7 @@ export function getDynamicWebContent(subTab) {
           { icon: Shield, text: "Top-tier backend security" },
           { icon: Smartphone, text: "Mobile-ready dashboard" },
         ],
-        price: "Starting from ₹39,999",
+        price: "Starting from ₹59,999",
       };
 
     default:
@@ -165,7 +165,7 @@ export function getEcommerceContent(subTab) {
           { icon: Zap, text: "Optimized for conversion" },
           { icon: Smartphone, text: "Mobile-first design" },
         ],
-        price: "Starting from ₹29,999",
+        price: "Starting from ₹39,999",
       };
 
     case "multi":
@@ -179,7 +179,7 @@ export function getEcommerceContent(subTab) {
           { icon: Shield, text: "Admin moderation panel" },
           { icon: Globe, text: "SEO-optimized for scaling" },
         ],
-        price: "Starting from ₹49,999",
+        price: "Starting from ₹79,999",
       };
 
     case "subscription":
@@ -193,7 +193,7 @@ export function getEcommerceContent(subTab) {
           { icon: Shield, text: "Secure transactions" },
           { icon: Smartphone, text: "Responsive subscription pages" },
         ],
-        price: "Starting from ₹34,999",
+        price: "Starting from ₹64,999",
       };
 
     case "digital":
@@ -207,7 +207,7 @@ export function getEcommerceContent(subTab) {
           { icon: Database, text: "Digital inventory dashboard" },
           { icon: Smartphone, text: "Optimized for digital UX" },
         ],
-        price: "Starting from ₹24,999",
+        price: "Starting from ₹44,999",
       };
 
     default:

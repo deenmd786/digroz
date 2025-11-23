@@ -30,12 +30,12 @@ const ServiceDetailSection = ({
   reverseLayout = false,
 }) => {
   const layoutClasses = reverseLayout
-    ? "flex-col-reverse lg:flex-row-reverse"
+    ? "flex-col lg:flex-row-reverse"
     : "flex-col lg:flex-row";
 
   return (
     <div
-      className={`flex ${layoutClasses} items-center gap-10 py-12`}
+      className={`flex ${layoutClasses} items-center gap-10 md:py-12`}
     >
       {/* Text Section */}
       <div className="w-full lg:w-1/2">
@@ -64,7 +64,7 @@ const ServiceDetailSection = ({
             alt={imageAlt}
             width={600}
             height={400}
-            className="w-full h-[60vh] object-contain rounded-2xl transition-transform duration-500 hover:scale-[1.05]"
+            className="w-full sm:h-[60vh] object-contain rounded-2xl transition-transform duration-500 hover:scale-[1.05]"
             onError={(e) => {
               e.currentTarget.src =
                 "https://placehold.co/600x400/0a0a0a/33ffff?text=Graphic";

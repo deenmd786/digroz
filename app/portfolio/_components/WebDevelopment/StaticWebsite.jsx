@@ -13,10 +13,10 @@ export default function StaticWebsite() {
       label: "Basic One-Page",
       icon: Code,
       images: [
-        "https://drive.google.com/uc?export=view&id=1zD7fxTVjKbSpxA6T9bY4xQtTCBrElRue",
-        "https://drive.google.com/uc?id=1w_Tw2zKKcrRb8ZHE299xPGOF1sYqp_32",
-        "https://drive.google.com/uc?id=1XxeYHmxuKYALjIvrKP9oyDO2YiTM4MuX",
-        "https://drive.google.com/uc?id=1NhRuYDLuKVWdBrkWAvOeeFjDOmPzjXNT",
+        "/assets/images/webdev/static/basic-1.png",
+        "/assets/images/webdev/static/basic-2.png",
+        "/assets/images/webdev/static/basic-3.png",
+        "/assets/images/webdev/static/basic-4.png",
       ],
     },
     {
@@ -24,8 +24,10 @@ export default function StaticWebsite() {
       label: "Animated / Interactive",
       icon: Sparkles,
       images: [
-        "https://drive.google.com/uc?id=YOUR_ANIMATED_1",
-        "https://drive.google.com/uc?id=YOUR_ANIMATED_2",
+        "/assets/images/webdev/static/animated-1.png",
+        "/assets/images/webdev/static/animated-2.png",
+        "/assets/images/webdev/static/animated-3.png",
+        "/assets/images/webdev/static/animated-4.png",
       ],
     },
     {
@@ -33,17 +35,21 @@ export default function StaticWebsite() {
       label: "Portfolio / Creative",
       icon: Rocket,
       images: [
-        "https://drive.google.com/uc?id=YOUR_PORTFOLIO_1",
-        "https://drive.google.com/uc?id=YOUR_PORTFOLIO_2",
-      ],
+        "/assets/images/webdev/static/portfolio-1.png",
+        "/assets/images/webdev/static/portfolio-2.png",
+        "/assets/images/webdev/static/portfolio-3.png",
+        "/assets/images/webdev/static/portfolio-4.png",
+      ]
     },
     {
       id: "corporate",
       label: "Corporate / Professional",
       icon: Server,
       images: [
-        "https://drive.google.com/uc?id=YOUR_CORPORATE_1",
-        "https://drive.google.com/uc?id=YOUR_CORPORATE_2",
+        "/assets/images/webdev/static/corporate-1.png",
+        "/assets/images/webdev/static/corporate-2.png",
+        "/assets/images/webdev/static/corporate-3.png",
+        "/assets/images/webdev/static/corporate-4.png",
       ],
     },
   ];
@@ -51,7 +57,7 @@ export default function StaticWebsite() {
   return (
     <section className="relative z-10 py-10">
       {/* --- Sub Tabs --- */}
-      <div className="flex flex-wrap gap-3 justify-center mb-10">
+      <div className="flex flex-wrap gap-3 justify-start sm:justify-center mb-10">
         {staticSubTabs.map((sub) => {
           const Icon = sub.icon;
           const isActive = activeSub === sub.id;
@@ -66,10 +72,7 @@ export default function StaticWebsite() {
                     : "bg-gray-900 border border-cyan-600/30 text-cyan-300 hover:border-cyan-400 hover:text-white"
                 }`}
             >
-              <span className="hidden max-sm:text-xs sm:flex">
-                <Icon size={18} />
-                </span>
-              
+              <Icon size={18} />
               {sub.label}
             </button>
           );
@@ -78,7 +81,8 @@ export default function StaticWebsite() {
 
       {/* --- Tab Content --- */}
       <div className="relative">
-        <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/5 to-blue-500/5 blur-2xl opacity-40" />
+        <div className="absolute inset-0 bg-linear-to-r from-cyan-500/5 to-blue-500/5 blur-2xl opacity-40" />
+
         <div className="relative z-10">
           <TabContent
             {...getStaticWebContent(activeSub)}

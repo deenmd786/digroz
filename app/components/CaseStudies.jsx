@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import SectionGlow from "./SectionGlow";
-import { caseStudies } from "../data/caseStudiesData"; // ✅ imported from data folder
+import { caseStudies } from "../data/caseStudiesData";
 
 export default function CaseStudies() {
   return (
@@ -27,7 +27,7 @@ export default function CaseStudies() {
           {caseStudies.map((study) => (
             <div
               key={study.title}
-              className="relative bg-linear-to-br from-gray-900 to-gray-950 border border-cyan-500/20 rounded-2xl overflow-hidden shadow-lg hover:shadow-cyan-500/40 transition-transform duration-500 hover:scale-[1.03]"
+              className="relative bg-linear-to-br from-gray-900 to-gray-950 border border-cyan-500/20 rounded-2xl overflow-hidden shadow-lg hover:shadow-cyan-500/40 transition-shadow duration-400 "
             >
               <div className="relative z-10 flex flex-col sm:flex-row items-stretch">
                 {/* Text Side */}

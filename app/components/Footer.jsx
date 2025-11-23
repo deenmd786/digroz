@@ -25,17 +25,17 @@ const socialLinks = [
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/digroz",
+    href: "https://www.instagram.com/digro_z/",
     icon: FaInstagram,
   },
   {
     name: "Twitter / X",
-    href: "https://x.com/digroz",
+    href: "https://x.com/digroz59",
     icon: FaXTwitter,
   },
   {
     name: "Facebook",
-    href: "https://www.facebook.com/digroz",
+    href: "https://www.facebook.com/people/Digroz/61583593868779/",
     icon: FaFacebookF,
   },
 ];
