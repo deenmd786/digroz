@@ -25,7 +25,7 @@ export default function EcommerceApps() {
         { icon: Zap, text: "Optimized for conversions" },
         { icon: Smartphone, text: "Mobile-first design" },
       ],
-      price: "Starting from ₹99,999",
+      price: "Starting from ₹1,59,999",
     },
     multi: {
       title: "Multi Vendor Marketplace",
@@ -37,7 +37,7 @@ export default function EcommerceApps() {
         { icon: ShoppingBag, text: "Product & order management" },
         { icon: Smartphone, text: "Mobile optimized" },
       ],
-      price: "Starting from ₹1,49,999",
+      price: "Starting from ₹3,49,999",
     },
     subscription: {
       title: "Subscription Store",
@@ -49,7 +49,7 @@ export default function EcommerceApps() {
         { icon: Shield, text: "Secure transactions" },
         { icon: Smartphone, text: "Responsive subscription pages" },
       ],
-      price: "Starting from ₹1,19,999",
+      price: "Starting from ₹2,09,999",
     },
     digital: {
       title: "Digital Product Store",
@@ -61,7 +61,7 @@ export default function EcommerceApps() {
         { icon: Database, text: "Digital inventory dashboard" },
         { icon: Smartphone, text: "Optimized for digital UX" },
       ],
-      price: "Starting from ₹99,999",
+      price: "Starting from ₹1,59,999",
     },
   };
 

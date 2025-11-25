@@ -33,7 +33,7 @@ export function getStaticWebContent(subTab) {
           { icon: Shield, text: "SSL-secured hosting setup" },
           { icon: Globe, text: "Contact form & Google Map" },
         ],
-        price: "Starting from ₹4,999",
+        price: "Starting from ₹19,999",
       };
 
     case "animated":
@@ -47,7 +47,7 @@ export function getStaticWebContent(subTab) {
           { icon: Shield, text: "SEO-friendly transitions" },
           { icon: Smartphone, text: "Responsive on all devices" },
         ],
-        price: "Starting from ₹9,999",
+        price: "Starting from ₹29,999",
       };
 
     case "portfolio":
@@ -61,7 +61,7 @@ export function getStaticWebContent(subTab) {
           { icon: Server, text: "Gallery & case study sections" },
           { icon: Shield, text: "Hosting & backups included" },
         ],
-        price: "Starting from ₹7,499",
+        price: "Starting from ₹24,499",
       };
 
     case "corporate":
@@ -75,7 +75,7 @@ export function getStaticWebContent(subTab) {
           { icon: Zap, text: "Optimized for SEO" },
           { icon: Shield, text: "Advanced protection & speed" },
         ],
-        price: "Starting from ₹12,999",
+        price: "Starting from ₹26,999",
       };
 
     default:
@@ -90,7 +90,7 @@ export function getDynamicWebContent(subTab) {
   switch (subTab) {
     case "wordpress":
       return {
-        title: "WordPress CMS Website",
+        title: "WordPress CMS + Website",
         desc: "Perfect for blogs, business sites, and small e-commerce stores with easy admin control.",
         items: [
           { icon: Layers, text: "Custom WordPress setup" },
@@ -99,12 +99,12 @@ export function getDynamicWebContent(subTab) {
           { icon: Zap, text: "Fast, scalable performance" },
           { icon: Shield, text: "Security & backups included" },
         ],
-        price: "Starting from ₹15,999",
+        price: "Starting from ₹30,999",
       };
 
     case "headless":
       return {
-        title: "Headless CMS Website",
+        title: "Headless CMS + Website",
         desc: "Modern architecture using Contentful, Sanity, or Strapi as backend with Next.js frontend.",
         items: [
           { icon: Database, text: "Decoupled backend" },
@@ -113,7 +113,7 @@ export function getDynamicWebContent(subTab) {
           { icon: Shield, text: "High security structure" },
           { icon: Smartphone, text: "API-driven content delivery" },
         ],
-        price: "Starting from ₹24,999",
+        price: "Starting from ₹35,999",
       };
 
     case "strapi":
@@ -165,7 +165,7 @@ export function getEcommerceContent(subTab) {
           { icon: Zap, text: "Optimized for conversion" },
           { icon: Smartphone, text: "Mobile-first design" },
         ],
-        price: "Starting from ₹39,999",
+        price: "Starting from ₹69,999",
       };
 
     case "multi":
@@ -179,7 +179,7 @@ export function getEcommerceContent(subTab) {
           { icon: Shield, text: "Admin moderation panel" },
           { icon: Globe, text: "SEO-optimized for scaling" },
         ],
-        price: "Starting from ₹79,999",
+        price: "Starting from ₹99,999",
       };
 
     case "subscription":
@@ -193,7 +193,7 @@ export function getEcommerceContent(subTab) {
           { icon: Shield, text: "Secure transactions" },
           { icon: Smartphone, text: "Responsive subscription pages" },
         ],
-        price: "Starting from ₹64,999",
+        price: "Starting from ₹84,999",
       };
 
     case "digital":
@@ -207,7 +207,7 @@ export function getEcommerceContent(subTab) {
           { icon: Database, text: "Digital inventory dashboard" },
           { icon: Smartphone, text: "Optimized for digital UX" },
         ],
-        price: "Starting from ₹44,999",
+        price: "Starting from ₹65,999",
       };
 
     default:

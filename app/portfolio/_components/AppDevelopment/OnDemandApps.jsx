@@ -25,7 +25,7 @@ export default function OnDemandApps() {
         { icon: CheckCircle, text: "Order management dashboards" },
         { icon: Cloud, text: "App store deployment" },
       ],
-      price: "Starting from ₹1,49,999",
+      price: "Starting from ₹1,99,999",
     },
     booking: {
       title: "Booking Apps",
@@ -49,7 +49,7 @@ export default function OnDemandApps() {
         { icon: CheckCircle, text: "Secure backend services" },
         { icon: Cloud, text: "Deployment & scalability" },
       ],
-      price: "Starting from ₹1,59,999",
+      price: "Starting from ₹2,59,999",
     },
     service: {
       title: "Service Apps",
@@ -61,7 +61,7 @@ export default function OnDemandApps() {
         { icon: CheckCircle, text: "Analytics & notifications" },
         { icon: Cloud, text: "Cloud sync & scalability" },
       ],
-      price: "Starting from ₹1,49,999",
+      price: "Starting from ₹2,49,999",
     },
   };
 
