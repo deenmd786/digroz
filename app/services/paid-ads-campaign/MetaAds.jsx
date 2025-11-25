@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Users, TrendingUp, BarChart, Megaphone, Coins } from "lucide-react";
-import TabContent from "../services/TabContent";
+import TabContent from "../_components/TabContent";
 
 export default function MetaAds() {
   const [subTab, setSubTab] = useState("feed");

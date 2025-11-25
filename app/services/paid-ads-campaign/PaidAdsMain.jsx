@@ -30,7 +30,7 @@ export default function PaidAdsMain() {
   ];
 
   return (
-    <section className="bg-gray-950 text-gray-300 border border-cyan-600/20 rounded-2xl p-10 shadow-lg shadow-cyan-500/10 space-y-10">
+    <section className="bg-gray-950 text-gray-300 border border-cyan-600/20 rounded-2xl p-10 mt-20 shadow-lg shadow-cyan-500/10 space-y-10">
       {/* --- Header --- */}
       <div className="text-center">
         <h2 className="text-3xl font-bold text-cyan-400 mb-3 flex items-center justify-center gap-2">

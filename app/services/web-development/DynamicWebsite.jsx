@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Database, Layers, Settings, Globe } from "lucide-react";
-import TabContent from "../services/TabContent";
+import TabContent from "../_components/TabContent";
 import { getDynamicWebContent } from "./getWebTabContent";
 
 export default function DynamicWebsite() {

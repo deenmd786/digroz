@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Code, Sparkles, Rocket, Server } from "lucide-react";
 import { getStaticWebContent } from "./getWebTabContent";
-import TabContent from "../services/TabContent";
+import TabContent from "../_components/TabContent";
 
 export default function StaticWebsite() {
   const [activeSub, setActiveSub] = useState("basic");

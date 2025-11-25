@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { ShoppingBag, Users, CreditCard, FileBox } from "lucide-react";
-import TabContent from "../services/TabContent";
+import TabContent from "../_components/TabContent";
 import { getEcommerceContent } from "./getWebTabContent";
 
 export default function EcommerceWebsite() {

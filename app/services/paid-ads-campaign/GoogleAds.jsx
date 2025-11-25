@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Target, BarChart, Coins, TrendingUp, Search } from "lucide-react";
-import TabContent from "../services/TabContent";
+import TabContent from "../_components/TabContent";
 
 export default function GoogleAds() {
   const [subTab, setSubTab] = useState("search");

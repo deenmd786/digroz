@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Palette, Cpu, Database, CheckCircle, Cloud } from "lucide-react";
-import TabContent from "../services/TabContent";
+import TabContent from "../_components/TabContent";
 
 export default function CustomSolutions() {
   const [activeSubTab, setActiveSubTab] = useState("healthcare");

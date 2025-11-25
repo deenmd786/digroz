@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { TrendingUp, BarChart, Coins, Zap } from "lucide-react";
-import TabContent from "../services/TabContent";
+import TabContent from "../_components/TabContent";
 
 export default function RetargetingAds() {
   const [subTab, setSubTab] = useState("web");

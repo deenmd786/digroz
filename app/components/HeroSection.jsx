@@ -71,7 +71,7 @@ const HeroSection = () => {
               Accelerate Your Growth Today
             </Link>
             <Link
-              href="/portfolio"
+              href="/services"
               className="border-2 border-cyan-500 text-cyan-500 font-bold py-3 px-6 rounded-lg hover:bg-cyan-500 hover:text-white transition-all text-center text-sm sm:text-base"
             >
               Explore Our Portfolio

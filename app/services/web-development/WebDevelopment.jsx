@@ -26,7 +26,7 @@ export default function WebDevelopment() {
   ];
 
   return (
-    <section className="bg-gray-950 text-gray-300 border border-cyan-600/20 rounded-2xl p-10 shadow-lg shadow-cyan-500/10">
+    <section className="bg-gray-950 text-gray-300 border border-cyan-600/20 rounded-2xl mt-16 sm:mt-20 p-10 shadow-lg shadow-cyan-500/10">
       {/* --- Header --- */}
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-cyan-400 mb-2">

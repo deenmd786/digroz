@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ShoppingBag, BarChart, Coins, Zap, Globe } from "lucide-react";
-import TabContent from "../services/TabContent";
+import TabContent from "../_components/TabContent";
 
 export default function ShoppingAds() {
   const [subTab, setSubTab] = useState("product");

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import TabContent from "../services/TabContent";
+import TabContent from "../_components/TabContent";
 import { Rocket, Cpu, Database, CheckCircle, Cloud } from "lucide-react";
 
 export default function OnDemandApps() {
