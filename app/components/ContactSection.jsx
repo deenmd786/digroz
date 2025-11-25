@@ -13,7 +13,7 @@ const socialLinks = [
   { name: "LinkedIn", icon: FaLinkedinIn, href: "https://www.linkedin.com/company/digroz" },
   { name: "Twitter", icon: FaTwitter, href: "https://x.com/digroz59" },
   { name: "Facebook", icon: FaFacebookF, href: "https://www.facebook.com/people/Digroz/61583593868779/" },
-  { name: "Instagram", icon: FaInstagram, href: "https://www.instagram.com/digro_z/" },
+  { name: "Instagram", icon: FaInstagram, href: "https://www.instagram.com/digrozagency/" },
 ];
 
 export default function ContactSection() {
