@@ -21,6 +21,13 @@ export default function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Sending...");
+    // ✅ after form is successfully submitted
+    fbq.event("Lead", {
+      content_name: "Contact Form",
+      content_category: "Digital Marketing Lead",
+      value: 1,
+      currency: "INR",
+    });
 
     try {
       const res = await fetch("/api/contact", {
