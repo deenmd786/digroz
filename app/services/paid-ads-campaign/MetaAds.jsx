@@ -44,7 +44,7 @@ export default function MetaAds() {
             { icon: Users, text: "Dynamic video ads within reels." },
             { icon: TrendingUp, text: "Boost discovery and follower growth." },
           ],
-          price: "Starting ₹10,000/month + Ad Spend",
+          price: "Starting ₹12,000/month + Ad Spend",
         };
       case "lead":
         return {

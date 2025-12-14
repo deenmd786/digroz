@@ -25,7 +25,7 @@ export default function GoogleAds() {
             { icon: Coins, text: "Pay only per click (PPC)." },
             { icon: BarChart, text: "Keyword-focused targeting with analytics." },
           ],
-          price: "Starting ₹10,000/month + Ad Spend",
+          price: "Starting ₹12,000/month + Ad Spend",
         };
       case "display":
         return {
@@ -35,7 +35,7 @@ export default function GoogleAds() {
             { icon: TrendingUp, text: "Boost brand visibility with image-based ads." },
             { icon: BarChart, text: "Ideal for remarketing campaigns." },
           ],
-          price: "Starting ₹8,000/month + Ad Spend",
+          price: "Starting ₹10,000/month + Ad Spend",
         };
       case "video":
         return {
@@ -45,7 +45,7 @@ export default function GoogleAds() {
             { icon: Search, text: "Reach users on YouTube and partner networks." },
             { icon: TrendingUp, text: "Perfect for storytelling and awareness." },
           ],
-          price: "Starting ₹12,000/month + Ad Spend",
+          price: "Starting ₹15,000/month + Ad Spend",
         };
       case "local":
         return {
@@ -55,7 +55,7 @@ export default function GoogleAds() {
             { icon: Target, text: "Show up in Google’s Local Pack & Maps." },
             { icon: Coins, text: "Pay per verified lead, not just clicks." },
           ],
-          price: "Starting ₹7,000/month + Ad Spend",
+          price: "Starting ₹8,000/month + Ad Spend",
         };
       default:
         return {};
