@@ -37,7 +37,7 @@ export const metadata = {
     "Digroz",
   ],
 
-  manifest: "/site.webmanifest",
+  manifest: "/manifest.json",
 
   openGraph: {
     title:
